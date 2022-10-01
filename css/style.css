@@ -75,7 +75,7 @@ div {
     color: rgb(122, 122, 122);
 }
 
-
+/* Colocando o texto centralizado e adicionando um espaçamento */
 .teste p {
     width: 80%;
     text-align: center;
