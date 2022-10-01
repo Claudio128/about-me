@@ -68,11 +68,13 @@ div {
     width: 150%;
 }
 
+/* Adicionando a font "Josefin Sans" e alterando tamanho da fonte e a cor */
 #work, #edu{
     font-family: 'Josefin Sans';
     font-size: 15px;
     color: rgb(122, 122, 122);
 }
+
 
 .teste p {
     width: 80%;
