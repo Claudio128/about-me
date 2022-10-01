@@ -1,0 +1,46 @@
+/* Retirando todas as margins e paddings do página */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Aterando o tamanho da imagem e colocando uma raio na borda */
+#img {
+    max-width: 8rem;
+    border-radius: 10rem;
+    margin-bottom: 1rem;
+    margin-top: -4rem;
+    border: 5px solid #fff;
+}
+
+/* Deixando todos dentro do main centralizado */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #006eff;
+}
+
+main {
+    margin-top: 8rem;
+    height: 25rem;
+    background-color: #fff;
+    width: 40rem;
+    border-radius: 10px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Colocando a descrição um pouco separado em cima e com uma largura fixa */
+#descricao {
+    margin-top: 3rem;
+    max-width: 30rem;
+}
+
+#name {
+    margin-top: 1rem;
+    max-width: 30rem;
+}
