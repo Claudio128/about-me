@@ -49,8 +49,21 @@ div {
     max-width: 30rem;
 }
 
-#work, #edu {
-    margin: 0rem 5rem;
+#para {
+    width: 150%;
+}
+
+
+
+.teste p {
+    width: 80%;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+.teste {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5rem;
 }
