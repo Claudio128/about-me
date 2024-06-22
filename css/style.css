@@ -142,3 +142,37 @@ div {
     transition: .5s;
     transform: scale(1);
 }
+
+@media only screen and (max-width: 600px) {
+    /* Aterando o tamanho da imagem e colocando uma raio na borda */
+    #img {
+        max-width: 6rem;
+        border-radius: 10rem;
+        margin-top: -3rem;
+        border: 5px solid #fff;
+    }
+
+    main {
+        margin-top: 5.3rem;
+        margin-bottom: 3rem;
+        height: 42rem;
+        background-color: #fff;
+        width: 28rem;
+        border-radius: 25px;
+        color: #555555;
+    }
+
+    #descricao {
+        margin-top: 2rem;
+        max-width: 25rem;
+        margin-bottom: 2rem;
+        text-align: justify;
+    }
+
+    #subtitle {
+        margin-top: 0.1rem;
+        max-width: 25rem;
+        text-align: center;
+        color: black;
+    }
+}
