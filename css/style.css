@@ -53,14 +53,14 @@ div {
 /* Dando um espaçamento entre o título e o subtitulo */
 #subtitle {
     margin-top: 0.1rem;
-    color: black;
+    color: rgb(107, 107, 107);
 }
 
 /* Espaçamento entre a foto */
 #title {
     margin-top: 1rem;
     max-width: 30rem;
-    color: black;
+    color: rgb(65, 65, 65);
 }
 
 /* Espaçamento de um parágrafo específico */
@@ -115,22 +115,21 @@ div {
 #call a{
     text-decoration: none;
     margin-top: 0.5rem;
-    border: 2px solid black;
+    border: 2px solid #02619D;
     border-radius: 25px;
     padding: 5px 15px;
-    color: black;
 }
 
 #call a:hover {
     transition: .5s;
-    background-color: #000000;
+    background-color: #02619D;
     color: #ffffff;
 }
 
 #call a:not(:hover) {
     transition: .5s;
     background-color: #ffffff;
-    color: #000000;
+    color: #02619D;
 }
 
 #redesSociais a:hover{
